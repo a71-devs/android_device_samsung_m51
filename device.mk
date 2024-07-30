@@ -13,6 +13,10 @@ $(call inherit-product, device/samsung/a71-common/common.mk)
 PRODUCT_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
 
+# Ramdisk
+PRODUCT_PACKAGES += \
+    init.m51.rc \
+
 # Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH) \
