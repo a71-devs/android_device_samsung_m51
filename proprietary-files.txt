@@ -131,11 +131,6 @@ vendor/lib64/camera/com.samsung.tuned.sony_imx616.bin
 vendor/lib64/camera/com.samsung.tuned.sony_imx682.bin
 vendor/lib/hw/camera.qcom.so
 vendor/lib/hw/com.samsung.chi.override.so
-vendor/lib/camera.device@1.0-impl.so
-vendor/lib/camera.device@3.2-impl.so
-vendor/lib/camera.device@3.3-impl.so
-vendor/lib/camera.device@3.4-impl.so
-vendor/lib/camera.device@3.5-impl.so
 vendor/lib/libBeauty_v4.camera.samsung.so
 vendor/lib/libDualCamBokehCapture.camera.samsung.so
 vendor/lib/libHprFace_GAE_api.camera.samsung.so
@@ -177,11 +172,6 @@ vendor/lib/libvdis_interface.so
 vendor/lib/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.samsung.chi.override.so
-vendor/lib64/camera.device@1.0-impl.so
-vendor/lib64/camera.device@3.2-impl.so
-vendor/lib64/camera.device@3.3-impl.so
-vendor/lib64/camera.device@3.4-impl.so
-vendor/lib64/camera.device@3.5-impl.so
 vendor/lib64/libBeauty_v4.camera.samsung.so
 vendor/lib64/libDLInterface.camera.samsung.so
 vendor/lib64/libDualCamBokehCapture.camera.samsung.so
