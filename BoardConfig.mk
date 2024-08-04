@@ -17,6 +17,9 @@ TARGET_BOARD_NAME := SRPTD22A005
 # Kernel
 TARGET_KERNEL_CONFIG := m51_defconfig
 
+# NFC
+TARGET_HAVE_SEC_NFC := true
+
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
