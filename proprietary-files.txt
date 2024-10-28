@@ -159,7 +159,6 @@ vendor/lib/liblivefocus_preview_engine.so
 vendor/lib/liblivefocus_preview_interface.so
 vendor/lib/libllhdr_interface.so
 vendor/lib/liblow_light_hdr.so
-vendor/lib/libmpbase.so
 vendor/lib/libqcwrappercommon.so
 vendor/lib/libsmartfocus_interface.so
 vendor/lib/libsmartfocusengine.so
@@ -204,7 +203,6 @@ vendor/lib64/liblivefocus_capture_interface.so
 vendor/lib64/liblivefocus_preview_engine.so
 vendor/lib64/liblivefocus_preview_interface.so
 vendor/lib64/liblow_light_hdr.so
-vendor/lib64/libmpbase.so
 vendor/lib64/libqcwrappercommon.so
 vendor/lib64/libremosaic_daemon.so
 vendor/lib64/libremosaiclib.so
@@ -276,11 +274,5 @@ vendor/etc/sensors/config/sns_tilt_sw_enabled.json
 vendor/etc/sensors/config/stk3a6x_0.json
 vendor/etc/sensors/config/stk3a9x_0.json
 vendor/bin/factory.ssc
-vendor/lib/libsensorlistener.so
-vendor/lib/libsensorndkbridge.so
 vendor/lib/sensors.grip.so
-vendor/lib/sensors.ssc.so
-vendor/lib64/libsensorlistener.so
-vendor/lib64/libsensorndkbridge.so
 vendor/lib64/sensors.grip.so
-vendor/lib64/sensors.ssc.so
