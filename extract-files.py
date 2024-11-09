@@ -5,9 +5,7 @@
 #
 
 from extract_utils.fixups_lib import (
-    lib_fixup_vendorcompat,
-    lib_fixups_user_type,
-    libs_proto_3_9_1,
+    lib_fixups,
 )
 from extract_utils.main import (
     ExtractUtils,
@@ -17,10 +15,6 @@ from extract_utils.main import (
 namespace_imports = [
     'vendor/samsung/a71-common',
 ]
-
-lib_fixups: lib_fixups_user_type = {
-    libs_proto_3_9_1: lib_fixup_vendorcompat,
-}
 
 module = ExtractUtilsModule(
     'm51',
