@@ -16,8 +16,8 @@ system/lib/libFacePreProcessing.camera.samsung.so:vendor/lib/libFacePreProcessin
 system/lib64/libFacePreProcessing.camera.samsung.so:vendor/lib64/libFacePreProcessing.camera.samsung.so
 system/lib64/libFacialStickerEngine.arcsoft.so:vendor/lib64/libFacialStickerEngine.arcsoft.so
 vendor/lib/camera/components/com.qti.camx.chiiqutils.so
-vendor/lib/camera/components/com.qti.eisv2.so
-vendor/lib/camera/components/com.qti.eisv3.so
+vendor/lib/camera/components/com.qti.eisv2.so;DISABLE_CHECKELF
+vendor/lib/camera/components/com.qti.eisv3.so;DISABLE_CHECKELF
 vendor/lib/camera/components/com.qti.node.depth.so
 vendor/lib/camera/components/com.qti.node.dummyrtb.so
 vendor/lib/camera/components/com.qti.node.dummysat.so
@@ -31,7 +31,7 @@ vendor/lib/camera/components/com.qti.node.swregistration.so
 vendor/lib/camera/components/com.qti.stats.aec.so
 vendor/lib/camera/components/com.qti.stats.af.so
 vendor/lib/camera/components/com.qti.stats.afd.so
-vendor/lib/camera/components/com.qti.stats.asd.so
+vendor/lib/camera/components/com.qti.stats.asd.so;DISABLE_CHECKELF
 vendor/lib/camera/components/com.qti.stats.awb.so
 vendor/lib/camera/components/com.qti.stats.haf.so
 vendor/lib/camera/components/com.qti.stats.hafoverride.so
@@ -80,8 +80,8 @@ vendor/lib/camera/f_dual_calibration.bin
 vendor/lib/camera/uw_dual_calibration.bin
 vendor/lib/camera/w_dual_calibration.bin
 vendor/lib64/camera/components/com.qti.camx.chiiqutils.so
-vendor/lib64/camera/components/com.qti.eisv2.so
-vendor/lib64/camera/components/com.qti.eisv3.so
+vendor/lib64/camera/components/com.qti.eisv2.so;DISABLE_CHECKELF
+vendor/lib64/camera/components/com.qti.eisv3.so;DISABLE_CHECKELF
 vendor/lib64/camera/components/com.qti.node.depth.so
 vendor/lib64/camera/components/com.qti.node.dummyrtb.so
 vendor/lib64/camera/components/com.qti.node.dummysat.so
@@ -93,7 +93,7 @@ vendor/lib64/camera/components/com.qti.node.memcpy.so
 vendor/lib64/camera/components/com.qti.node.stich.so
 vendor/lib64/camera/components/com.qti.node.swregistration.so
 vendor/lib64/camera/components/com.qti.stats.afd.so
-vendor/lib64/camera/components/com.qti.stats.asd.so
+vendor/lib64/camera/components/com.qti.stats.asd.so;DISABLE_CHECKELF
 vendor/lib64/camera/components/com.qti.stats.hafoverride.so
 vendor/lib64/camera/components/com.qti.stats.pdlibsony.so
 vendor/lib64/camera/components/com.qti.stats.pdlibwrapper.so
